@@ -18,13 +18,12 @@ public class CadastroActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.cadastro_activity);
 
-        btnCriar = findViewById(R.id.btnCriarConta);
+        btnCriar = findViewById(R.id.btnCadastrarConta);
 
         btnCriar.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                setContentView(R.layout.login_activity);
                 Intent intent = new Intent(CadastroActivity.this, LoginActivity.class);
+                startActivity(intent);
             }
         });
     }

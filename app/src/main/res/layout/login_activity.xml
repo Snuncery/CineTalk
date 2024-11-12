@@ -23,14 +23,15 @@
             android:layout_width="317dp"
             android:layout_height="154dp"
             android:layout_marginTop="90dp"
-            app:srcCompat="@drawable/cinetalk"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/cinetalk" />
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/editTextLoginEmail"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_marginTop="50dp"
+            android:layout_marginBottom="-20dp"
             android:background="@drawable/custom_input"
             android:drawableStart="@drawable/ic_email"
             android:drawablePadding="6dp"
@@ -39,16 +40,16 @@
             android:inputType="textEmailAddress"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:textColorHint="@color/black"
-            android:textSize="16dp"
-            android:layout_marginBottom="-20dp"
-            android:textColor="@color/darkdarkGray"/>
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkDarkerGray"
+            android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/editTextLoginPassword"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_marginTop="50dp"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/custom_input"
             android:drawableStart="@drawable/ic_lock"
             android:drawablePadding="6dp"
@@ -57,10 +58,9 @@
             android:inputType="textPassword"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:textColorHint="@color/black"
-            android:textSize="16dp"
-            android:layout_marginBottom="16dp"
-            android:textColor="@color/darkdarkGray"/>
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkDarkerGray"
+            android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnLoginEntrar"
@@ -68,10 +68,10 @@
             android:layout_height="40dp"
             android:layout_gravity="center"
             android:layout_marginTop="35dp"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/custom_button"
             android:text="Entrar"
-            android:textColor="@color/white"
-            android:layout_marginBottom="16dp"/>
+            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/textViewRegistrar"

@@ -8,8 +8,8 @@
     tools:context=".CadastroActivity">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,8 +49,8 @@
             android:inputType="text"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:textColor="@color/darkdarkGray"
-            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkdarkGray"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -66,11 +66,12 @@
             android:inputType="textEmailAddress"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:textColor="@color/darkdarkGray"
-            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkdarkGray"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextCadastroSenha"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_marginBottom="16dp"
@@ -78,12 +79,12 @@
             android:drawableStart="@drawable/ic_lock"
             android:drawablePadding="6dp"
             android:ems="10"
-            android:hint="Confirmar senha"
+            android:hint="Senha"
             android:inputType="textPassword"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:textColor="@color/darkdarkGray"
-            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkdarkGray"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -93,24 +94,23 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/custom_input"
             android:drawableStart="@drawable/ic_lock"
-
             android:drawablePadding="6dp"
             android:ems="10"
             android:hint="Confirmar senha"
             android:inputType="textPassword"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:textColor="@color/darkdarkGray"
-            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkdarkGray"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnCriarConta"
+            android:id="@+id/btnCadastrarConta"
             android:layout_width="175dp"
             android:layout_height="40dp"
             android:layout_marginTop="35dp"
             android:background="@drawable/custom_button"
-            android:clickable="true"
+            android:enabled="true"
             android:text="Criar"
             android:textColor="@color/white" />
     </LinearLayout>
