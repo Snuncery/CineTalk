@@ -50,7 +50,7 @@
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
             android:textColor="@color/black"
-            android:textColorHint="@color/darkdarkGray"
+            android:textColorHint="@color/darkDarkerGray"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -67,7 +67,7 @@
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
             android:textColor="@color/black"
-            android:textColorHint="@color/darkdarkGray"
+            android:textColorHint="@color/darkDarkerGray"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -84,7 +84,7 @@
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
             android:textColor="@color/black"
-            android:textColorHint="@color/darkdarkGray"
+            android:textColorHint="@color/darkDarkerGray"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -101,7 +101,7 @@
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
             android:textColor="@color/black"
-            android:textColorHint="@color/darkdarkGray"
+            android:textColorHint="@color/darkDarkerGray"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatButton
